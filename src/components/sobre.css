@@ -1,0 +1,32 @@
+.sobre{
+    padding-top: 80px;
+    color: #fff;
+}
+.sobre-title{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.sobre-conteudo{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sobre-imagens{
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+.sobre-imagens ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.sobre-imagens li{
+    list-style: none;
+}
+.sobre-imagens img{
+    width: 500px;
+    height: 280px;
+}

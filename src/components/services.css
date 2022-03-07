@@ -1,0 +1,32 @@
+.services{
+    padding-top: 50px;
+    color: #fff;
+}
+.services-title{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+.services-info{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.services-lista{
+    margin-right: 150px;
+    margin-left: 100px;
+}
+.services-lista ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.services-lista li{
+    display: inline;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+hr{
+    border-color: rgb(206, 50, 50);
+}
