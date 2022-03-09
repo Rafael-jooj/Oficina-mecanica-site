@@ -1,0 +1,14 @@
+.carrossel{
+    width: 100%;
+    padding-top: 70px;
+}
+.carrossel img{
+    position: relative;
+    width: 100vw;
+}
+
+@media (max-width:760px){
+    .carrossel{
+       width: 100vw;
+    }
+}

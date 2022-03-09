@@ -28,6 +28,9 @@
 .footer-redes h3{
     margin-left: 40px;
 }
+.footer-info{
+    margin-top: 30px;
+}
 .footer-info h3{
     margin-top: 30px;
 }
@@ -46,4 +49,21 @@
 a{
     text-decoration: none;
     color: #fff;
+}
+
+
+@media (max-width:760px){
+    .footer{
+        padding: 0 0 50px 0;
+        justify-content: space-around;
+    }
+    .footer-logo{
+        display: none;
+    }
+    .footer-redes{
+        margin-bottom: 30px;
+    }
+    .footer-info{
+        margin-top: 0;
+    }
 }

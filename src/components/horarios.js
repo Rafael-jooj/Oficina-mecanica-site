@@ -20,7 +20,7 @@ const Horarios = ()=>{
                         <li>♦ Sáb: 08:00 - 12:00</li>
                         <li>♦ Dom: Fechado</li>
                     </ul>
-                </div>
+                </div> 
                 <div className="horarios-local">
                     <h2>Localização</h2>
                     <a href="https://www.google.com/maps/place/JILVAN+AUTO+CENTER/data=!3m1!4b1!4m2!3m1!1s0x9324cb0600d747e9:0xf4f049d6df26cca5" target="blank"><img src="./imagens/mapa.png" alt="mapa"></img></a>

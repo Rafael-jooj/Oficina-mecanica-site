@@ -3,9 +3,11 @@ import './header.css'
 
 const Header = ()=>{
     return(
-        <header className='header-inicio'>
-            <div className='header-image'>
-                <img src='./imagens/Logo.png' alt='logo'></img>
+        <header>
+            <div className='header-logo'>
+                <a href='/'>
+                    <img src='./imagens/logo1.png' alt='logo'></img>
+                </a>
             </div>
             <div className='header-info'>
                 <ul>
@@ -18,5 +20,6 @@ const Header = ()=>{
         </header>
     )
 }
+
 
 export default Header;

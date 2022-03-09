@@ -10,7 +10,7 @@ const Sobre = ()=>{
             </div>
             <div className="sobre-conteudo">
                 <p>Nossa empresa atua há dois anos no mercado, nossos serviços são destinados a veículos de passeio e utilitários</p>
-                <p>Trabalhamos o fornecimento de serviços e peças de primeira linha de reposição</p>
+                <p>Trabalhamos com o fornecimento de serviços e peças de primeira linha de reposição</p>
                 <p>Para a comodidade do cliente contamos com o serviço de leva e trás</p>
             </div>
             <div className="sobre-imagens">

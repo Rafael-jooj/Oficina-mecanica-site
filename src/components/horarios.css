@@ -3,16 +3,18 @@
     color: #fff;
     font-weight: bold;
     margin-bottom: 50px;
+    font-size: 18px;
 }
 .horarios-title{
     margin-left: 100px;
     margin-right: 100px;
 }
 .horarios-lista{
-    margin-left: 100px;
+    /* margin-left: 100px; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    color: rgb(83, 129, 255);
 }
 .horarios-lista h2{
     padding-left: 50px;
@@ -20,14 +22,29 @@
 .horarios-lista li{
     list-style: none;
     margin: 7px;
-    font-size: 18px;
-}
-.horarios-local{
-    margin-right: 150px;
 }
 .horarios-local img{
     width: 500px;
 }
 .horarios-local h2{
     margin-left: -50px;
+}
+
+@media (max-width:760px){
+    .horarios{
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    .horarios-title{
+        margin: 0 30px 30px 30px;
+    }
+    .horarios-lista{
+        display: contents;
+    }
+    .horarios-local h2{
+        margin: 20px 0 20px 0;
+    }
+    .horarios-local img{
+        width: 100vw;
+    }
 }

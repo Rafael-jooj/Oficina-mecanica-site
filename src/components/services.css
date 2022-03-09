@@ -15,6 +15,7 @@
 .services-lista{
     margin-right: 150px;
     margin-left: 100px;
+    color: rgb(83, 129, 255);
 }
 .services-lista ul{
     display: flex;
@@ -29,4 +30,27 @@
 }
 hr{
     border-color: rgb(206, 50, 50);
+}
+
+@media (max-width:760px){
+    .services{
+        padding-top: 10px;
+    }
+    .services-title{
+        margin: 0 30px 30px 30px;
+    }
+    .services-info{
+        margin: 0 30px 30px 30px;
+    }
+    .services-lista{
+        margin: 0;
+    }
+    .services-lista ul{
+        justify-content: left;
+    }
+    .services-lista li{
+        font-size: 18px;
+        margin-left: 15px;
+        display:contents;
+    }
 }
